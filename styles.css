@@ -1,0 +1,255 @@
+body{
+    font-size: 15px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+p {
+    margin: 0;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #f5f5f7;
+    font-size: 12px;
+    color: #86868b;
+    padding: 1% 12%;
+    text-align: left;
+    text-align: justify;
+}
+/* Navbar */
+.search, .msearch, .mimage{
+    display: none;
+}
+.navbar{
+    position: fixed;
+    padding: 6px  180px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.fas, .Logo, .navbar-brand, .nav-link{
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 50px;
+    padding: 0;
+}
+.fa-apple:hover, .fas:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Title section */
+#title-section{
+    padding-top: 40px;
+    margin-bottom: 10px;
+    background-color: #fbfbfd;
+}
+.nav-message{
+    background-color: #eae9e9;
+    padding: 8px;
+}
+.nav-message p{
+    margin-bottom: 0;
+}
+
+.Big-heading{
+    margin: 50px auto 0;
+    font-size: 3.2rem;
+    font-weight:500;
+    padding: 0 300px;
+}
+.title-text{
+    font-size: 1.2rem;
+    color: grey;
+    margin: 0 auto 20px;
+    width: 450px;
+}
+.title-links{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 50px 20px;
+}
+
+/* AdvertSection */
+#iphone12{
+    background-color: #000;
+    padding-top: 3%;
+}
+
+#iphone12 h1, #iphone12 h3{
+    color: #fff;
+    margin-top: 0;
+}
+.advert{
+    background-color: #bfe2e8;
+    padding: 15px 44px 44px;
+}
+.adlink{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px;
+    display: block;
+}
+.col-lg-6{
+    padding-right: 0;
+}
+.column{
+    background-color: #000;
+    margin: 0 5px 0 0;
+    padding: 7%;
+    color: #fff;
+    height: 100%;
+}
+
+.column h2 {
+    margin: 0;
+}
+.column p{
+    margin: 0 0 5px;
+    color: red;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+.appleimg{
+    width: 600px;
+}
+.watchimg{
+    width: 400px;
+}
+
+
+/* Footersection */
+.list-header{
+    font-weight: 600;
+}
+.coppyright{
+    display: inline-block;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+.footer-links{
+    padding: 0 1%;
+    color: #86868b;
+    border-right: 1px solid grey;
+}
+.unitedS{
+    margin-left: 200px;
+    color: #86868b;
+}
+.footer-links:hover, .unitedS:hover{
+    color: #86868b;
+}
+
+@media (max-width: 1000px) {
+
+    .navbar{
+        position: fixed;
+        padding: 6px  10px;
+        width: 100%;
+        background: rgba(0, 0, 0, 1);
+    }
+    .Dsearch{
+        display: none;
+    }
+    .formbox{
+        border-bottom: 1px solid grey;
+        padding: 10px 0;
+        position: relative;
+    }
+    .search{
+        display: inline;
+        background-color: #222 ;
+        width: 100%;
+        border: 0;
+        border-radius: 10px;
+        padding: 3px 30px;
+    }
+    .msearch {
+        display: inline;
+        position: absolute;
+        left: 10px;
+        top: 15px;
+    }
+    .navbar-brand{
+        margin: auto;
+    }
+    .nav-item{
+        padding: 5px 15px;
+    }
+    .nav-link{
+        border-bottom: 1px solid grey;
+    }
+
+/* Title section */
+    #title-section{
+        padding-top: 50px;
+        margin-bottom: 10px;
+        background-color: #fff;
+    }
+    .nav-message{
+        background-color: #eae9e9;
+        padding: 8px;
+    }
+    .nav-message p{
+        margin-bottom: 0;
+    }
+    
+    .Big-heading{
+        margin: 50px auto 0;
+        font-size: 2.5rem;
+        font-weight:500;
+        padding: 0;
+    }
+    .title-text{
+        font-size: 18px;
+        color: grey;
+        margin: 0 auto 20px;
+        width: 350px;
+    }
+    .title-links{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 50px 20px;
+    }
+    .mimage{
+        display: block;
+        width: 100%;
+    }
+    .dimage{
+        display: none;
+    }
+    .appleimg{
+        width: 100%;
+    }
+    .watchimg{
+        width: 100%;
+    }
+    footer{
+        padding: 1% 1% 5%;  
+    }
+    .col-lg-6{
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+    .coppyright{
+        display: block;
+    }
+    .unitedS{
+        display: none;
+        }
+        .footer-links{
+            padding: 0 5% 0 0;
+        }
+}
