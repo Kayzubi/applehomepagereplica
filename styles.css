@@ -156,7 +156,7 @@ footer li:hover{
 
     .navbar{
         position: fixed;
-        padding: 6px  10px;
+        padding: 6px  5px;
         width: 100%;
         background: rgba(0, 0, 0, 1);
     }
